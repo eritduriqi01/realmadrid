@@ -7,6 +7,19 @@ header {
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+body {
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 nav {
@@ -31,6 +44,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-    background-color: #f3e400;
+    background-color: #00ebf3;
     color: #002060;
 }
+
